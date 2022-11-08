@@ -20,6 +20,10 @@ URL: https://themeforest.net/user/surjithctly/
 
 
     -------------------------------------------------------------------*/
+.textwhite{
+  color:white !important;
+}
+
 .sliderimg {
   height: 500px;
   margin-bottom: 90px;
@@ -555,7 +559,7 @@ a:focus {
   -ms-flex-align: end;
   align-items: flex-end;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top:35px;
 }
 
 .animated-hero {
@@ -1115,6 +1119,7 @@ a:focus {
 .service-thumbnail img {
   float: left;
   margin-right: 16px;
+  margin-bottom: 20px;
 }
 
 .service-thumbnail_text {
