@@ -20,8 +20,52 @@ URL: https://themeforest.net/user/surjithctly/
 
 
     -------------------------------------------------------------------*/
-.textwhite{
-  color:white !important;
+.bottom-space{
+  margin-bottom: 100px;
+}
+.about-section{
+  margin-top: 120px !important;
+}
+    .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tabcontent p{
+  padding-top: 10px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.textwhite {
+  color: white !important;
 }
 
 .sliderimg {
@@ -41,6 +85,33 @@ a {
   text-decoration: none !important;
 }
 
+.designbyP {
+  padding-left: 5px;
+  padding-right: 3px;
+}
+.searchform {
+  margin-top: -210px;
+  position:absolute;
+  width:100%;
+  
+}
+
+.sidebar-category {
+  margin-top: 40px !important;
+}
+.thumbnail-wrap img {
+  margin-right: 0px !important;
+}
+.thumbnail-wrap {
+  margin-right: 0px !important;
+}
+.thumbnail-text_wrap {
+  padding-left: 5px;
+}
+.addresstitle {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 /*-------------------------------------------------------------------*/
 
 .dropdown-toggle::after {
@@ -509,11 +580,11 @@ a:focus {
 }
 
 .space {
-  padding: 40px 0;
+  padding: 0px 0;
 }
 @media (min-width: 768px) {
   .space {
-    padding: 90px 0;
+    padding: 20px 0;
   }
 }
 
@@ -541,7 +612,7 @@ a:focus {
 .banner--wrap {
   background: url(assets/images/banner-bg.jpg) center no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 650px;
 }
 
 .banner:focus {
@@ -559,7 +630,7 @@ a:focus {
   -ms-flex-align: end;
   align-items: flex-end;
   overflow: hidden;
-  padding-top:35px;
+  padding-top: 35px;
 }
 
 .animated-hero {
@@ -1046,7 +1117,7 @@ a:focus {
 
 .booking-form {
   padding: 0;
-  margin: -190px 0 0;
+  margin: 0 0 0;
   background: #4d72d0;
   padding: 20px;
   border-radius: 23px;
@@ -1171,8 +1242,8 @@ a:focus {
 
 .video-play-btn {
   position: absolute;
-  top: 30px;
-  left: 30px;
+  top: 250px;
+  left: 220px;
   background: #5bc198;
   padding: 14px 0;
   width: 90px;
@@ -2139,11 +2210,13 @@ a:focus {
 
 /* --------- Blog --------- */
 .blog-wrap {
-  background: #f4f6fa;
+  background: white;
 }
 
 .blog-row-block {
   padding: 18px 50px;
+  margin-bottom: 10px;
+  background: #f4f6fa;
   border-bottom: 1px solid #ddd;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -2511,6 +2584,7 @@ footer {
 
 .sub-header_content {
   color: #fff;
+  height: 90px;
 }
 .sub-header_content p {
   font-size: 12px;

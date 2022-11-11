@@ -1,0 +1,65 @@
+<!--==================== Map ====================-->
+<section>
+    <iframe width="100%" height="450" id="gmap_canvas"
+        src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    <div class="container container-custom">
+        <div class="row">
+            <div class="col-md-7 offset-md-5 col-lg-6 offset-lg-6">
+                <div class="get-in-touch">
+                    <img src="assets/images/contact-form-bg.png" class="img-fluid get-in-bg" alt="#">
+                    <h3>Bizimle İletişime Geçin</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                        <!-- REQUIRED: Your Access key here. Don't worry this can be public -->
+                        <!-- Create your Access key here: https://web3forms.com/ -->
+                        <input type="hidden" name="apikey" value="YOUR_ACCESS_KEY_HERE">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="first name"
+                                        placeholder="Ad" required>
+                                    <i class="far fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="last name" placeholder="Soyad"
+                                        required>
+                                    <i class="far fa-user"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email address"
+                                        placeholder="Email" required>
+                                    <i class="far fa-envelope"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="number" class="form-control" name="phone number"
+                                        placeholder="Telefon Numarası" required>
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group textarea-icon">
+                                    <textarea class="form-control" name="message" required
+                                        placeholder="Mesaj" id="" rows="3"></textarea>
+                                    <i class="far fa-envelope"></i>
+                                    <button type="submit" class="btn btn-primary">Gönder</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="result" class="text-white"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--//End Map -->

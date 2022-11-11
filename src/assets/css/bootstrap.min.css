@@ -244,7 +244,7 @@ select {
 [type="reset"],
 [type="submit"],
 button {
-  -webkit-appearance: button;
+  cursor: pointer;
 }
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -294,14 +294,13 @@ progress {
 }
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: none;
 }
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+  cursor: pointer;
 }
 ::-webkit-file-upload-button {
   font: inherit;
-  -webkit-appearance: button;
+  cursor: pointer;
 }
 output {
   display: inline-block;
